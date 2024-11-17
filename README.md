@@ -31,8 +31,6 @@ Any problem? ask my partner chatgpt, i'm new in this blender script.
 
 ## How To Use new features - Acess Playlist Youtube
 
-## YouTube Tutorial
-
 Watch the video tutorial for a complete demonstration: CLICK TO OPEN
 
 [![YouTube video](https://img.youtube.com/vi/RDp8VPgMPks/0.jpg)](https://www.youtube.com/watch?v=RDp8VPgMPks&list=PLSYBVl_A2UfBBloohfCNFUgNMl-908Jdi)
