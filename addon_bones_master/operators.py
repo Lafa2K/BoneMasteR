@@ -1,5 +1,4 @@
 import bpy
-
 def AddBonesToEdges(self, context):
     selected_objects = bpy.context.selected_objects
 
@@ -12,6 +11,8 @@ def AddBonesToEdges(self, context):
             amt = bpy.data.armatures.new(f"{obj.name}_armature")
             rig = bpy.data.objects.new(f"{obj.name}_armature_Object", amt)
             bpy.context.collection.objects.link(rig)
+
+            bpy.ops.object.mode_set(mode='OBJECT')
 
             bpy.context.view_layer.objects.active = rig
             bpy.ops.object.mode_set(mode='EDIT')
@@ -34,10 +35,11 @@ def AddBonesToEdges(self, context):
                 bone.head = v1_world
                 bone.tail = v2_world
 
-            bpy.ops.object.mode_set(mode='OBJECT')
             self.report({'INFO'}, f"Created bones for edges in {obj.name}")
 
     return {'FINISHED'}
+
+
 
 class OBJECT_OT_AddBonesToEdges(bpy.types.Operator):
     bl_idname = "object.add_bones_to_edges"
@@ -47,7 +49,6 @@ class OBJECT_OT_AddBonesToEdges(bpy.types.Operator):
     def execute(self, context):
         return AddBonesToEdges(self, context)
 
-# Função para adicionar ossos no pivô com grupos de vértices
 def AddBonesAtPivotsWithRootAndVertexGroups(self, context, bone_size):
     selected_objects = bpy.context.selected_objects
     
