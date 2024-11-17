@@ -15,6 +15,8 @@ class VIEW3D_PT_BonesMasterPanel(bpy.types.Panel):
         
         op = layout.operator("object.add_bones_at_pivots", text="Add bones to object Origin")
         op.bone_size = scene.bone_master_size
+        
+        layout.operator("object.add_bones_to_edges", text="Add Bone to Edge")
 
 classes = (VIEW3D_PT_BonesMasterPanel,)
 
