@@ -2,7 +2,7 @@
 
 ## Description
 
-**Bone Master** is a Blender tool that allows you to create bones for selected objects, adding a `Vertex Group` for each object and renaming the bones based on each object's/vertex group's name.
+**Bone Master** is a Blender 4.0 tool that allows you to create bones for selected objects, adding a `Vertex Group` for each object and renaming the bones based on each object's/vertex group's name.
 
 ## Installation
 1. Download the addon and extract the files.
