@@ -18,7 +18,7 @@
 
 3. **Click Generate**: Once you've configured the settings, click the "Generate" button to create the bones and the `Vertex Group` for each object.
 
-4. **Select the objects and Apply JOIN**: To join the selected objects "JOIN" `Ctrl + P`
+4. **Select the objects and Apply JOIN**: To join the selected objects "JOIN" 
 
 5. **Set Parent with Bones**: To set the parent using bones, select the object and the armature, then press `Ctrl + P` and choose "Armature Deform".
 
