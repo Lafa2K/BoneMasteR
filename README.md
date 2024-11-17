@@ -27,7 +27,7 @@
 
 Watch the video tutorial for a complete demonstration:
 
-[![YouTube video](https://img.youtube.com/vi/YourVideoID/0.jpg)](https://www.youtube.com/watch?v=YourVideoID)
+[![YouTube video](https://img.youtube.com/vi/RDp8VPgMPks/0.jpg)]([https://www.youtube.com/watch?v=YourVideoID](https://youtu.be/RDp8VPgMPks))
 
 ## License
 
