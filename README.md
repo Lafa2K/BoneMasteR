@@ -5,7 +5,6 @@
 **Bone Master** is a Blender tool that allows you to create bones for selected objects, adding a `Vertex Group` for each object and renaming the bones based on each object's/vertex group's name.
 
 ## Installation
-
 1. Download the addon and extract the files.
 2. In Blender, go to **Edit > Preferences > Add-ons > Install...**.
 3. Select the `.zip` file or the extracted folder of the addon.
@@ -25,7 +24,7 @@
 
 ## YouTube Tutorial
 
-Watch the video tutorial for a complete demonstration:
+Watch the video tutorial for a complete demonstration: CLICK TO OPEN
 
 [![YouTube video](https://img.youtube.com/vi/RDp8VPgMPks/0.jpg)]([https://www.youtube.com/watch?v=YourVideoID](https://youtu.be/RDp8VPgMPks))
 
