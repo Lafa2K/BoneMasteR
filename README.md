@@ -26,7 +26,8 @@
 
 Watch the video tutorial for a complete demonstration: CLICK TO OPEN
 
-[![YouTube video](https://img.youtube.com/vi/RDp8VPgMPks/0.jpg)]([https://www.youtube.com/watch?v=YourVideoID](https://youtu.be/RDp8VPgMPks))
+[![YouTube video](https://img.youtube.com/vi/RDp8VPgMPks/0.jpg)](https://www.youtube.com/watch?v=RDp8VPgMPks)
+
 
 ## License
 
