@@ -6,7 +6,7 @@ bl_info = {
     "blender": (4, 0, 0),
     "location": "View3D > N Panel > BoneMaster",
     "category": "Object",
-    "wiki_url": "https://github.com/SeuUsuario/BoneMaster",
+    "wiki_url": "github.com/Lafa2K/BoneMasteR",
 }
 
 
