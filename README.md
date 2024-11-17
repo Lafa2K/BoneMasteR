@@ -10,7 +10,7 @@
 3. Select the `.zip` file or the extracted folder of the addon.
 4. Enable the addon in the add-ons list.
 
-## How to Use
+## How to Use bone to origin
 
 1. **Select the objects**: Make sure the objects have their origin set to your preference (e.g., center of mass).
 
@@ -21,6 +21,8 @@
 4. **Select the objects and Apply JOIN**: To join the selected objects "JOIN" 
 
 5. **Set Parent with Bones**: To set the parent using bones, select the object and the armature, then press `Ctrl + P` and choose "Armature Deform".
+
+## How To Use new features - Acess Playlist Youtube
 
 ## YouTube Tutorial
 
