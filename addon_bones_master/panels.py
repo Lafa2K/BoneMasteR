@@ -13,12 +13,13 @@ class VIEW3D_PT_BonesMasterPanel(bpy.types.Panel):
 
         layout.prop(scene, "bone_master_size", text="Bone Size")
         
-        op = layout.operator("object.add_bones_at_pivots", text="Add bones to object Origin")
-        op.bone_size = scene.bone_master_size
-        
+        layout.operator("object.add_bones_at_pivots", text="Add bones to object Origin")
         layout.operator("object.add_bones_to_edges", text="Add Bone to Edge")
 
+        layout.operator("object.add_bones_to_vertices", text="Add Bone to Vertex")
+
 classes = (VIEW3D_PT_BonesMasterPanel,)
+
 
 def register():
     bpy.types.Scene.bone_master_size = bpy.props.FloatProperty(

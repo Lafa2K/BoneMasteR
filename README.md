@@ -16,6 +16,8 @@ Any problem? ask my partner chatgpt, i'm new in this blender script.
 
 ## To do
 1. lot of stuff
+2. Add Join selected object
+3. Add Root vertex group to object
 
 ## How to Use bone to origin
 
@@ -23,7 +25,7 @@ Any problem? ask my partner chatgpt, i'm new in this blender script.
 
 2. **Set the bone size**: The addon allows you to set the bone size before generating the bones.
 
-3. **Click Generate**: Once you've configured the settings, click the "Generate" button to create the bones and the `Vertex Group` for each object.
+3. **Click Generate**: Once you've configured the settings, click the "Generate" button to create the bones and the `Vertex Group` for each object. "need create ROOT vertexGroup if Join selected objects"
 
 4. **Select the objects and Apply JOIN**: To join the selected objects "JOIN" 
 
